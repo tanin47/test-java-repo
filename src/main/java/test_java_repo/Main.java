@@ -148,6 +148,7 @@ public class Main {
     Library.execute();
     Library.execute();
     get();
+    get();
   }
 
   public static int get() { return 2; }
