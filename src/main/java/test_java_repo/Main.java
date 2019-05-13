@@ -6,7 +6,6 @@ import com.stripe.model.Charge;
 
 public class Main {
   public static void main(String[] args) {
-    Library.execute();
     Stripe.getApiBase();
 
     // a new commit
