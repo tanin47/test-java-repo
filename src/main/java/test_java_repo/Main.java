@@ -150,5 +150,5 @@ public class Main {
     get();
   }
 
-  public static int get() { return 2; }
+  public static Integer get() { return 2; }
 }
