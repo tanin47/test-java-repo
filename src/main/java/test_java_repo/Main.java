@@ -1,5 +1,7 @@
 package test_java_repo;
 
+import com.stripe.Stripe;
+
 public class Main {
   public static void main(String[] args) {
     Library.execute();
@@ -150,5 +152,8 @@ public class Main {
     get();
   }
 
-  public static Integer get() { return 2; }
+  public static Integer get() { 
+    Stripe.getApiBase();
+    return 2; 
+  }
 }
