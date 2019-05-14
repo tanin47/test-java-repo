@@ -8,7 +8,7 @@ public class Main {
   public static void main(String[] args) {
     Stripe.getApiBase();
 
-    // a new commit
+    Library.execute();
 
     try {
       Charge.create(null);
