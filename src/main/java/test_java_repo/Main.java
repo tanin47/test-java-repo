@@ -150,7 +150,10 @@ public class Main {
     Library.execute();
     Library.execute();
     get();
+    usedOnlyInThisFile();
   }
+
+  public static void usedOnlyInThisFile() {}
 
   public static Integer get() { 
     Stripe.getApiBase();
